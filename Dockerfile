@@ -37,7 +37,7 @@ WORKDIR $APP_DIR
 ENV KCPTUN_URL https://github.com/xtaci/kcptun/releases/download/v${KCPTUN_VER}/kcptun-linux-amd64-${KCPTUN_VER}.tar.gz
 ENV KCPTUN_TDEP curl
 RUN set -ex \
-    && apk add --update $SS_TDEP \
+    && apk add --update $KCPTUN_TDEP \
     && curl -sSL $KCPTUN_URL | tar xz \
-    && apk del --purge $SS_TDEP \
+    && apk del --purge $KCPTUN_TDEP \
     && rm -rf /var/cache/apk/*
