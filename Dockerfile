@@ -33,9 +33,6 @@ ENV KCPTUN_LOG                  /dev/null
 ENV APP_DIR                     /srv/kcptun
 WORKDIR $APP_DIR
 
-# service port
-EXPOSE $KCPTUN_LISTEN_PORT/tcp
-
 # build kcptun
 ENV KCPTUN_URL https://github.com/xtaci/kcptun/releases/download/v${KCPTUN_VER}/kcptun-linux-amd64-${KCPTUN_VER}.tar.gz
 ENV KCPTUN_TDEP curl
