@@ -19,7 +19,7 @@ ENV KCPTUN_DATASHARD            10
 ENV KCPTUN_PARITYSHARD          3
 ENV KCPTUN_DSCP                 46
 ENV KCPTUN_NOCOMP               true
-ENV KCPTUN_LOG                  /dev/null
+ENV KCPTUN_LOG                  /dev/stderr
 
 # define default directory
 ENV APP_DIR                     /srv/kcptun
