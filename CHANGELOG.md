@@ -1,6 +1,9 @@
 # Change Log
 
 ## bump to new version
+ * kcptun: v20170904
+
+## bump to new version
  * kcptun: v20170525
 
 ## bump to new version
