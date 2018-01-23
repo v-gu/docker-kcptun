@@ -3,9 +3,9 @@
 #
 
 FROM alpine
-MAINTAINER Vincent.Gu <g@v-io.co>
+MAINTAINER Vincent.Gu <v@vgu.io>
 
-ENV KCPTUN_VER 20171113
+ENV KCPTUN_VER 20171201
 
 ENV KCPTUN_KEY                  password
 ENV KCPTUN_CRYPT                aes
