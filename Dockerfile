@@ -5,7 +5,7 @@
 FROM alpine
 MAINTAINER Vincent.Gu <v@vgu.io>
 
-ENV KCPTUN_VER 20180305
+ENV KCPTUN_VER 20180316
 
 ENV KCPTUN_KEY                  password
 ENV KCPTUN_CRYPT                aes
